@@ -22,6 +22,7 @@
   padding: 0 2rem;
 }
 
+/* Images */
 .img {
   display: flex;
   justify-content: flex-end;
@@ -34,6 +35,7 @@
 .avatar {
   width: 100px;
 }
+/* form */
 .login-container {
   display: flex;
   align-items: center;
@@ -51,6 +53,19 @@ form h2 {
   color: #333;
 }
 
+/* icons */
+.i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.i i {
+  color: #d9d9d9;
+  transition: 0.3s;
+}
+
+/* input */
 .input-div {
   position: relative;
   display: grid;
@@ -59,8 +74,9 @@ form h2 {
   padding: 5px 0;
   border-bottom: 2px solid #d9d9d9;
 }
-.input-div::after,.input-div::before{
-  content: '';
+.input-div::after,
+.input-div::before {
+  content: "";
   position: absolute;
   bottom: -2px;
   width: 0;
@@ -69,20 +85,20 @@ form h2 {
   transition: 0.3s;
 }
 
-
-.input-div::after{
+.input-div::after {
   right: 50%;
 }
 
-.input-div::before{
-  left:50%;
+.input-div::before {
+  left: 50%;
 }
 .input-div.focus .i i {
   color: #38d39f;
 }
 
-.input-div.focus::after, .input-div.focus::before{
-width: 50%;
+.input-div.focus::after,
+.input-div.focus::before {
+  width: 50%;
 }
 .input-div.focus div h5 {
   top: -5px;
@@ -96,17 +112,6 @@ width: 50%;
 
 .password {
   margin-bottom: 4px;
-}
-
-.i {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.i i {
-  color: #d9d9d9;
-  transition: 0.3s;
 }
 
 .input-div > div {
@@ -139,6 +144,7 @@ width: 50%;
   font-family: "Poppins", sans-serif;
 }
 
+/* Link */
 a {
   display: block;
   text-align: right;
